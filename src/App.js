@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
+const nestedObject = {
+	a: 1,
+	b: {
+		b1: 4,
+		b2: {
+			b23: 'Hello',
+		},
+		b3: {
+			b31: {
+				message: 'Hi',
+			},
+			b32: {
+				message: 'Hi',
+			}
+		}
+	},
+	c: {
+		c1: 2,
+		c2: 3,
+	}
+}
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<h1>Your code goes here</h1>
+	);
 }
 
 export default App;
