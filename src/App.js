@@ -1,3 +1,4 @@
+// Functional programming is a way of organizing your code base to minimize mutation and state change in your applications. The functions remain independent of external data, known as pure functions, and you also treat functions as first-class citizens
 import { RecursiveComponent } from "./RecursiveComponent";
 import { DangerButton, BigSuccessButton } from './partiallyApply';
 
