@@ -1,3 +1,4 @@
+// Use for having to traverse a very nested data structure
 const isObject = x => typeof x === 'object' && x !== null;
 
 export const RecursiveComponent = ({ data }) => {
