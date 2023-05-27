@@ -1,3 +1,4 @@
+// composition is the functioning programming analog to inheritance in OOP
 export const Button = ({ size, color, text, ...props }) => {
 	return (
 		<button style={{
